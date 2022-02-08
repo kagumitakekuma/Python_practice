@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver =webdriver.Crome()
-driver.get("http://python.org")
-driver.save_screenshot("screenshot.png")
+driver =webdriver.Chrome()
+driver.get("https://www.yahoo.co.jp/")
+driver.save_screenshot("screenshot1.png")
 driver.quit()
